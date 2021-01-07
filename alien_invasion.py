@@ -31,18 +31,32 @@ class AlienInvasion:
             if event.type == pygame.QUIT:
                 sys.exit()
             elif event.type == pygame.KEYDOWN:
-                # Move ship right
+                # Move Right
                 if event.key == pygame.K_RIGHT:
                     self.ship.moving_right = True
+                # Move Left
                 elif event.key == pygame.K_LEFT:
                     self.ship.moving_left = True
+                # Move Up
+                elif event.key == pygame.K_UP:
+                    self.ship.moving_up = True
+                # Move Down
+                elif event.key == pygame.K_DOWN:
+                    self.ship.moving_down = True
                 
             elif event.type == pygame.KEYUP:
+                # Right release
                 if event.key == pygame.K_RIGHT:
                     self.ship.moving_right = False
+                # Left release
                 elif event.key == pygame.K_LEFT:
                     self.ship.moving_left = False
-
+                # Up release
+                elif event.key == pygame.K_UP:
+                    self.ship.moving_up = False
+                # Down release
+                elif event.key == pygame.K_DOWN:
+                    self.ship.moving_down = False
 
     def _update_screen(self):
         # Redraw screen during each pass
@@ -50,7 +64,6 @@ class AlienInvasion:
         # Redraw ship
         
         self.ship.blitme()
-
         pygame.display.flip()
 
 # Make game instance, run 
