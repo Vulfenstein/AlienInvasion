@@ -15,7 +15,6 @@
  
 ## Usage
    <p>  python alien_invasion.py </p>
-   <p>  "q" will quit game at any point </p>
 
 ## Acknowledgements 
   <p> Python Crash Course - Eric Matthes </p>
