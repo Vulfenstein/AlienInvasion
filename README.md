@@ -5,8 +5,8 @@
 ## Screen Shots
 
 <p float="center">
-  <img src = "add" width = "300" height = "460" />
-  <img src = "add" width = "300" height = "460" />
+  <img src = "assets/start_screen.png" width = "600" height = "460" />
+  <img src = "assets/play_screen.png" width = "600" height = "460" />
 </p>
 
 ## Dependencies
@@ -14,5 +14,8 @@
   * Pygame
  
 ## Usage
-  <p> python alien_invasion.py </p>
-  <p> "q" will quit game at any point </p>
+   <p>  python alien_invasion.py </p>
+   <p>  "q" will quit game at any point </p>
+
+## Acknowledgements 
+  <p> Python Crash Course - Eric Matthes </p>
