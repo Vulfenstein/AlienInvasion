@@ -1,8 +1,8 @@
 # AlienInvasion
 
-<p> Alien Invasion is the spirit animal of Galaga. Players play as a space pilot tasked with destroying the evil aliens! As the game progresses the aliens, ship, and bullet speeds will all continually increase. </p>
+<p> Alien Invasion is the spirit animal of Galaga. Players play as a space pilot tasked with destroying the evil aliens! As the game progresses the alien, ship, and bullet speeds will all continually increase. </p>
 
-## Screen Shots
+## Screenshots
 
 <p float="center">
   <img src = "assets/start_screen.png" width = "600" height = "460" />
